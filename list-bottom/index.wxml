@@ -1,0 +1,6 @@
+<view class="component-list-bottom">
+    <view wx:if="{{finished}}" class="status-finished">{{finishedText}}</view>
+    <van-loading wx:elif="{{loading}}" class="status-loading" size="24px">
+        {{loadingText}}
+    </van-loading>
+</view>
